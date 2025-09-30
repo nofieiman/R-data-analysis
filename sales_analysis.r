@@ -112,7 +112,3 @@ ggplot(time_series, aes(x = Date, y = Daily_Revenue)) +
 
 # 9. Save processed data
 write.csv(sales_data, "processed_sales_data.csv", row.names = FALSE)
-
-# 10. Save visualizations
-ggsave("revenue_by_category.png", width = 8, height = 6)
-ggsave("price_rating_relationship.png", width = 8, height = 6)
